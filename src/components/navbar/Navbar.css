@@ -1,0 +1,30 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* La navbar prend toute la largeur */
+  display: flex;
+  justify-content: space-between; /* Sépare les éléments à gauche et à droite */
+  align-items: center; /* Centre verticalement les éléments */
+  padding: 50px;
+  background-color: black; /* Couleur noire de la maquette */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre */
+}
+
+.navbar-left,
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 16px;
+}
+
+.navbar-link:hover {
+  color: #00ffe5;
+  text-decoration: underline;
+}
