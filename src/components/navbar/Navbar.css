@@ -2,29 +2,42 @@
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%; /* La navbar prend toute la largeur */
-  display: flex;
+  z-index: 9999;
+  width: 100%;
+  display: flex; /* Aligne les éléments */
   justify-content: space-between; /* Sépare les éléments à gauche et à droite */
   align-items: center; /* Centre verticalement les éléments */
-  padding: 50px;
-  background-color: black; /* Couleur noire de la maquette */
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre */
+  padding: 50px 30px;
+  background-color: black;
+  box-shadow: 0px 20px 20px rgba(0, 0, 0, 0.2); /* Ombre */
 }
 
 .navbar-left,
 .navbar-right {
-  display: flex;
-  align-items: center;
+  display: flex; /* Aligne les éléments de chaque parties de la navbar*/
+}
+
+.navbar-left {
+  font-weight: 1000;
+}
+
+.navbar-right {
+  font-weight: 500;
+  list-style: none;
+}
+
+.navbar-right .navbar-link {
+  margin: 0 30px; /* Espacement entre les liens de la droite de la navbar */
 }
 
 .navbar-link {
   color: white;
   text-decoration: none;
-  margin: 0 10px;
-  font-size: 16px;
+  font-size: 30px;
+  transition: color 0.3s ease;
 }
 
 .navbar-link:hover {
-  color: #00ffe5;
+  color: dodgerblue;
   text-decoration: underline;
 }

@@ -2,11 +2,13 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar";
 import "./App.css";
 
-// Exemples de pages
-const Home = () => <h1>Accueil</h1>;
-const BtsSio = () => <h1>BTS SIO</h1>;
-const VeilleInformatique = () => <h1>Veille Informatique</h1>;
-const TableauDeSynthese = () => <h1>Tableau de Synthèse</h1>;
+// Importation des pages
+import Home from "./pages/home/Home";
+import BtsSio from "./pages/btsSio/BtsSio";
+import Certif from "./pages/certif/Certif";
+import E4 from "./pages/e4/E4";
+import E5 from "./pages/e5/E5";
+import VeilleInfo from "./pages/veilleInfo/VeilleInfo";
 
 const App = () => {
   return (
@@ -15,8 +17,10 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/bts-sio" element={<BtsSio />} />
-        <Route path="/veille-informatique" element={<VeilleInformatique />} />
-        <Route path="/tableau-de-synthese" element={<TableauDeSynthese />} />
+        <Route path="/certification" element={<Certif />} />
+        <Route path="/e4" element={<E4 />} />
+        <Route path="/e5" element={<E5 />} />
+        <Route path="/veille-informatique" element={<VeilleInfo />} />
       </Routes>
     </Router>
   );
