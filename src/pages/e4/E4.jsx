@@ -26,19 +26,19 @@ const E4 = () => {
         <h2>Tableau de Synthèse</h2>
         <p>
           Le tableau de synthèse est un outil essentiel dans le cadre de
-          <br></br>
+          <br />
           l&apos;épreuve E4 du BTS SIO. Son objectif principal est de fournir
           une vue
-          <br></br>
+          <br />
           d&apos;ensemble des compétences mises en œuvre lors des projets ou
-          <br></br>
+          <br />
           activités réalisés par le candidat au cours de sa formation et, en
-          <br></br>
+          <br />
           particulier, durant son stage. Ce tableau joue un rôle clé dans
-          <br></br>
+          <br />
           l&apos;évaluation de la capacité du candidat à mobiliser les
           compétences
-          <br></br>
+          <br />
           techniques et organisationnelles acquises.
         </p>
         <a href="/TableauSyntheseE4.xlsx" download className="download-link">
