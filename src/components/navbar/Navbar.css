@@ -19,15 +19,18 @@
 
 .navbar-left {
   font-weight: 1000;
+  font-family: serif;
 }
 
 .navbar-right {
   font-weight: 500;
+  font-family: monospace;
   list-style: none;
 }
 
-.navbar-right .navbar-link {
-  margin: 0 30px; /* Espacement entre les liens de la droite de la navbar */
+.navbar-right .navbar-link,
+.navbar-left .navbar-link {
+  margin: 0 30px 0 30px; /* Espacement entre les liens de la droite de la navbar */
 }
 
 .navbar-link {
