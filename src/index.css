@@ -1,12 +1,27 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: white;
-  background-color: #242424;
+  background: linear-gradient(
+    to bottom,
+    rgb(19, 129, 104),
+    rgb(9, 75, 66),
+    rgb(11, 50, 63),
+    rgb(5, 25, 55)
+  );
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: max-content;
+  min-height: 100vh;
+}
+
+body {
+  place-items: center;
+  background-repeat: no-repeat;
+  height: max-content;
 }

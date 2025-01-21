@@ -7,22 +7,24 @@ const E4 = () => {
       <h1>Épreuve E4</h1>
       <p>
         Cette page est dédiée à l&apos;épreuve E4 du BTS SIO. Elle présente les
-        <br></br>
+        <br />
         projets développés, les technologies utilisées et les compétences mises
-        <br></br>
+        <br />
         en avant.
       </p>
-      {/* Section Rapport de Stage */}
-      <div className="section">
-        <h2>Rapport de Stage</h2>
+      <div className="rapports">
+        <h2>Rapport de stage de première année</h2>
         <iframe
           src="/Rapport_de_stage_20232024.pdf"
-          title="Rapport de Stage"
-          width="50%"
-          height="1000px"
-          style={{ border: "none" }}
+          title="Rapport de Stage de première année"
+          style={{ border: "solid 1px rgb(66, 201, 133)" }}
         ></iframe>
-        {/* Section Tableau de Synthèse */}
+        <h2>Rapport de stage de deuxième année</h2>
+        <iframe
+          src="/Rapport_de_stage_20232024.pdf"
+          title="Rapport de Stage de deuxième année"
+          style={{ border: "solid 1px #42c5c9" }}
+        ></iframe>
         <h2>Tableau de Synthèse</h2>
         <p>
           Le tableau de synthèse est un outil essentiel dans le cadre de

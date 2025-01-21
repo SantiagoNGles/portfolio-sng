@@ -1,8 +1,4 @@
-.bts-sio-container {
-  text-align: center;
-  margin-top: 200px;
-}
-
-.bts-sio-container p {
+.bts-sio-container img {
   margin-top: 30px;
+  border-radius: 20px;
 }

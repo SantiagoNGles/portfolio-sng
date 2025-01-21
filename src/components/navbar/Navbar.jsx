@@ -16,11 +16,6 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/certification" className="navbar-link">
-            Certification
-          </Link>
-        </li>
-        <li>
           <Link to="/e4" className="navbar-link">
             E4
           </Link>
@@ -33,6 +28,16 @@ const Navbar = () => {
         <li>
           <Link to="/veille-informatique" className="navbar-link">
             Veille Informatique
+          </Link>
+        </li>
+        <li>
+          <Link to="/projets" className="navbar-link">
+            Projets
+          </Link>
+        </li>
+        <li>
+          <Link to="/certification" className="navbar-link">
+            Certification
           </Link>
         </li>
       </ul>

@@ -1,0 +1,156 @@
+.veille-info-container {
+  width: 1500px;
+  padding: 70px;
+  align-items: center;
+  background-image: linear-gradient(
+    to right,
+    rgb(34, 176, 100),
+    rgb(22, 98, 115)
+  );
+  border-radius: 50px;
+}
+
+.veille-info-container h1 {
+  margin-bottom: 1px;
+}
+
+.paragraphe-1 {
+  margin-top: 100px;
+}
+
+.paragraphe-2 {
+  margin-top: 100px;
+  padding: 0 100px;
+}
+
+.paragraphe-2 p {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.paragraphe-2-1 {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15rem;
+}
+
+.paragraphe-2-1 p {
+  margin: 0;
+}
+
+.paragraphe-3 {
+  margin-top: 100px;
+  padding: 0 100px;
+}
+
+.paragraphe-3-1 {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15rem;
+}
+
+.paragraphe-3-1 p {
+  margin: 0;
+}
+
+.paragraphe-4 {
+  margin-top: 100px;
+  padding: 0 100px;
+}
+
+.paragraphe-4 p {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.paragraphe-4-1 {
+  margin-top: 20px;
+}
+
+.paragraphe-4-1 ul {
+  margin-top: 0;
+  text-align: left;
+}
+
+.paragraphe-4-1 li {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  padding-right: 100px;
+}
+
+.paragraphe-4-1 h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.paragraphe-4-1 p {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.paragraphe-5 {
+  margin-top: 100px;
+  padding: 0 100px;
+}
+
+.paragraphe-5 p {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+.paragraphe-5-1 {
+  margin-top: 20px;
+}
+
+.paragraphe-5-1 ul {
+  margin-top: 0;
+  text-align: left;
+}
+
+.paragraphe-5-1 li {
+  margin-top: 15px;
+  padding-right: 100px;
+}
+
+.paragraphe-5-1 h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.paragraphe-5-1 p {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.paragraphe-6 {
+  margin-top: 100px;
+  padding: 0 100px;
+}
+
+.paragraphe-6 ul {
+  margin-top: 25px;
+  margin-bottom: 0;
+  text-align: left;
+}
+
+.paragraphe-6 li {
+  margin-top: 15px;
+  padding-right: 100px;
+}
+
+.paragraphe-6 h3 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.phishing-img {
+  width: 500px;
+  height: auto;
+  border-radius: 30px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
