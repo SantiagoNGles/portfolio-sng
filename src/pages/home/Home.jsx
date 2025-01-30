@@ -13,35 +13,13 @@ const Home = () => {
         option SLAM (Solutions Logicielles et Applications Métiers)
       </p>
 
-      <svg
-        className="arrow-down"
-        width="100"
-        height="100"
-        viewBox="0 0 100 100"
+      <a
+        href="/CVSantiagoNaranjoGrajales.pdf"
+        download
+        className="download-link"
       >
-        <defs>
-          <linearGradient id="arrowGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop offset="0%" stopColor="#16af20" />
-            <stop offset="100%" stopColor="#0697ff" />
-          </linearGradient>
-        </defs>
-        <path
-          d="M50 5 L50 75 M30 55 L50 75 L70 55"
-          stroke="url(#arrowGradient)"
-          strokeWidth="5"
-          fill="none"
-        />
-      </svg>
-
-      <div className="cv">
-        <h2>Mon CV</h2>
-        <iframe
-          src="/CVSantiagoNaranjoGrajales.pdf"
-          alt="CV"
-          className="cv-img"
-          title="CV Santiago Naranjo Grajales"
-        ></iframe>
-      </div>
+        Télécharger mon CV
+      </a>
     </div>
   );
 };

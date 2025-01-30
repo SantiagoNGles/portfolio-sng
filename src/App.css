@@ -22,3 +22,18 @@
 .container-common li {
   margin-top: 5px;
 }
+
+.download-link {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 10px 15px;
+  background-color: #42c5c9;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: bold;
+}
+
+.download-link:hover {
+  background-color: #2a9aa8;
+}

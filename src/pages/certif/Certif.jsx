@@ -1,25 +1,15 @@
-import "./Certif.css";
-
 const Certif = () => {
   return (
     <div className="container-common certif-container">
       <h1>Certification</h1>
       <p>
-        Cette page présente les informations liées à la certification obtenue ou
-        à obtenir.
+        Au cours de ma formation, j'ai eu l'occasion d'obtenir un badge de
+        <br />
+        suivie AWS Cloud Fondation.
       </p>
-      <ul>
-        <li>
-          Nom de la certification : <strong>Exemple Certification</strong>
-        </li>
-        <li>
-          Date d&apos;obtention : <strong>XX/XX/XXXX</strong>
-        </li>
-        <li>
-          Description :{" "}
-          <strong>Une courte description de la certification.</strong>
-        </li>
-      </ul>
+      <a href="/badgeAWS.pdf" download className="download-link">
+        Télécharger mon badge
+      </a>
     </div>
   );
 };
