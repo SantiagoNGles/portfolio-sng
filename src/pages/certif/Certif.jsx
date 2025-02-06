@@ -3,7 +3,8 @@ const Certif = () => {
     <div className="container-common certif-container">
       <h1>Certification</h1>
       <p>
-        Au cours de ma formation, j'ai eu l'occasion d'obtenir un badge de
+        Au cours de ma formation, j&apos;ai eu l&apos;occasion d&apos;obtenir un
+        badge de
         <br />
         suivie AWS Cloud Fondation.
       </p>
