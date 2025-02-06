@@ -1,0 +1,9 @@
+.list-e6-container {
+  text-align: left;
+  margin: 20px;
+}
+
+.e6-container ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}

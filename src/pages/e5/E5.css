@@ -1,9 +1,5 @@
-.list-e5-container {
-  text-align: left;
-  margin: 20px;
-}
-
-.e5-container ul {
-  margin-left: 20px;
-  list-style-type: disc;
+.rapports iframe {
+  width: 1000px;
+  height: 1190px;
+  border: none;
 }

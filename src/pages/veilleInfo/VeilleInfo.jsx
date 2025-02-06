@@ -236,28 +236,43 @@ const VeilleInfo = () => {
         <ul>
           <li>
             <h3>
-              https://www.economie.gouv.fr/entreprises/hameconnage-spearphishing
+              <a href="https://www.economie.gouv.fr/entreprises/hameconnage-spearphishing">
+                economie.gouv.fr
+              </a>
             </h3>
           </li>
           <li>
             <h3>
-              https://www.journaldunet.com/cybersecurite/1509995-spear-phishing-phishing-
-              ransomware-toutes-des-menaces-et-autant-de-techniques-de-defense-a-mettre-en-place/
-            </h3>
-          </li>
-          <li>
-            <h3>https://www.altospam.com/glossaire/spear-phishing/</h3>
-          </li>
-          <li>
-            <h3>
-              https://bigmedia.bpifrance.fr/nos-dossiers/spear-phishing-lattaque-par-hameconnage-
-              cible#:~:text=Les%20attaques%20de%20spear%20phishing,et%20la%20confiance%20des%20clients.
+              <a
+                href="https://www.journaldunet.com/cybersecurite/1509995-spear-phishing-phishing-
+              ransomware-toutes-des-menaces-et-autant-de-techniques-de-defense-a-mettre-en-place/"
+              >
+                journaldunet.com
+              </a>
             </h3>
           </li>
           <li>
             <h3>
-              https://bigmedia.bpifrance.fr/nos-dossiers/spear-phishing-lattaque-par-hameconnage-
-              cible#:~:text=Les%20attaques%20de%20spear%20phishing,et%20la%20confiance%20des%20clients.
+              <a href="https://www.altospam.com/glossaire/spear-phishing/">
+                altospam.com
+              </a>
+            </h3>
+          </li>
+          <li>
+            <h3>
+              <a
+                href="https://bigmedia.bpifrance.fr/nos-dossiers/spear-phishing-lattaque-par-hameconnage-
+              cible#:~:text=Les%20attaques%20de%20spear%20phishing,et%20la%20confiance%20des%20clients."
+              >
+                bigmedia.bpifrance.fr
+              </a>
+            </h3>
+          </li>
+          <li>
+            <h3>
+              <a href="https://www.lemagit.fr/conseil/Comment-se-prevenir-du-phishing-sur-LinkedIn-dans-lentreprise">
+                lemagit.fr
+              </a>
             </h3>
           </li>
         </ul>

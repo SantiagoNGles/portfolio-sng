@@ -16,13 +16,13 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/e4" className="navbar-link">
-            E4
+          <Link to="/e5" className="navbar-link">
+            E5
           </Link>
         </li>
         <li>
-          <Link to="/e5" className="navbar-link">
-            E5
+          <Link to="/e6" className="navbar-link">
+            E6
           </Link>
         </li>
         <li>
